@@ -1,0 +1,32 @@
+:root{
+    --text-color:#0e0e0f;
+    --text-light:#6f6f70;
+    --collor-accent: #cc2222;
+
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+
+  a{
+    text-decoration: none;
+    color: var(--text-color);
+  }
+
+  .container{
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+
+  body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+
+  
