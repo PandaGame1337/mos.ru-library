@@ -1,11 +1,11 @@
-:root{
+  :root{
     --text-color:#0e0e0f;
     --text-light:#6f6f70;
     --collor-accent: #cc2222;
 
-}
+  }
 
-* {
+  * {
     box-sizing: border-box;
   }
   
@@ -16,17 +16,68 @@
 
   a{
     text-decoration: none;
-    color: var(--text-color);
   }
 
   .container{
-    max-width: 1300px;
-    margin: 0 auto;
+    max-width: 1010px;
+    padding-left: 24px;
+    padding-right: 24px;
+    overflow: hidden;
   }
 
   body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
   }
+  .mos-logo{
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 12px;
+  }
+  .navbar-top{
+    background-color: var(--collor-accent);
+    height: 40px;
+    padding-right:24px ;
+    padding-left:24px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    
+  }
 
-  
+  .navbar-top a{
+    color: white;
+  }
+
+  .navbar-bottom{
+    height: 56px;
+    border-bottom: 1px solid #ebecef;
+    padding-right:24px ;
+    padding-left:24px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-top-left img{
+    padding-right: 8px;
+  }
+  .navbar-bottom-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .navbar-bottom-list__item{
+    list-style: none;
+    color: var(--text-color);
+    font-size: 18px;
+    margin-right: 28px;
+
+  }
+
+  .navbar-bottom-list__item:hover{
+    color: var(--collor-accent);
+  }
