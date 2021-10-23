@@ -433,4 +433,86 @@
 
   /* end content */
 
+  /* catalog */
+  .catalog{
+    margin-top: 50px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 0 40px;
+  }
 
+  .catalog-filter-form{
+    display: grid;
+    gap: 10px;
+    grid-template-rows: repeat(4,50px);
+    margin-top: 50px;
+    
+  }
+
+  .filter-form-unput-main{
+    display: flex;
+  }
+
+  .filter-form-unput{
+    border: 1px solid #c4c8d0;
+    outline: none;
+    border-radius: 4px;
+    padding: 10px;
+    height: 40px;
+    width: 300px;
+    
+  }
+
+  .filter-form-submit{
+    border: none;
+    border-radius: 4px;
+    background-color: var(--collor-accent);
+    height: 45px;
+    width: 150px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    margin-left: 60px;
+    
+  }
+
+  .filter-form-submit:hover{
+    background-color:#a01919 ;
+  }
+
+  .name-catalog-main{
+    margin: 0 0 20px 0;
+  }
+
+  .filter-form-select{
+    height: 35px;
+    width: 300px;
+    border: 1px solid #c4c8d0;
+    border-radius: 4px;
+    cursor: pointer;
+    color: var(--text-color);
+    background: url(../images/arrow-select.svg) no-repeat;
+    background-position: 97% 50%;
+    z-index: 1;
+    appearance: none;
+    padding: 0 10px;
+  }
+
+  .filter-form-select:focus{
+    outline: none;
+  }
+
+  .filter-form-select::-ms-expand {
+    display: none;
+  }
+
+  .catalog-main-list{
+    display: grid;
+    grid-template-columns: repeat(5,244px);
+    grid-template-rows: 300px;
+    gap: 20px;
+  }
+
+  /* end catalog */
+ 
