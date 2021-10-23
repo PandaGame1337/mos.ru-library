@@ -311,6 +311,60 @@
   /* end profile page */
   /* top-search */
 
+  .top-search{
+    height: 100px;
+    position: relative;
+    bottom: 50px;
+  }
+
+  .search-content{
+    height: 100%;
+    background-color:white;
+    box-shadow: 0 4px 12px rgb(0 20 67 / 12%), 0 0 1px rgb(14 14 15 / 12%);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 44px;
+  }
+
+  .form-unput{
+    height: 48px;
+    width: 465px;
+    border: 1px solid #c4c8d0;
+    outline: none;
+    border-radius: 4px;
+    padding: 20px;
+  }
+
+  .button-unput-submit{
+    padding: 15px 32px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--collor-accent);
+    color: white;
+    cursor: pointer;
+  }
+
+  .button-unput-submit:hover{
+    background-color:#a01919 ;
+  }
+
+  .search-link{
+    align-items: center;
+    display: flex;
+    color: var(--collor-accent);
+    font-size: 18px;
+  }
+
+  .search-link:hover{
+    color: #a01919;
+  }
+
+  .search-link img{
+    margin-right: 6px;
+  }
 
   /* end top-search  */
 
