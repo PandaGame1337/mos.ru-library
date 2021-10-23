@@ -125,6 +125,7 @@
 
   /* end top slider */
 
+  /* signin - signup page */
   .bc {
     background-color: #eee;
   }
@@ -252,4 +253,59 @@
     color: var(--text-light);
   }
 
-  
+  /* end signin - signup page */
+
+  /* profile page */
+  .ticket_wrapper{
+    text-align: center;
+    background-color: rgb(219, 219, 219);
+    margin-top: 30px;
+  }
+  .ticket-title{
+    padding-top: 40px;
+    margin: 0 0 10px 0;
+  }
+  .ticket-info{
+    margin: 10px auto;
+    padding: 20px;  
+  }
+  .ticket-info-content{
+    background-color: #fff;
+    padding: 40px;
+    width: 650px;
+    margin: 0 auto;
+  }
+  .ticket-info-title{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 20px;
+  }
+  .ticket-info-text{
+    margin: 30px 0 40px 0;
+    font-size: 16px;
+  }
+  .profile_wrapper{
+    display: flex;
+  }
+  .profile-username{
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .profile-left{
+    width: 80%;
+  }
+  .profile-right{
+    width: 20%;
+  }
+  .ticket-img{
+    background: url(../images/ticket.svg) no-repeat;
+    background-position-x: 100%;
+    background-size: 100%;
+    display: inline-block;
+    height: 240px;
+    position: absolute;
+    right: 250px;
+    top: 126px;
+    width: 340px;
+  }
+  /* end profile page */
