@@ -256,6 +256,13 @@
   /* end signin - signup page */
 
   /* profile page */
+  .profile-rec{ 
+    background-color: rgb(219, 219, 219);
+    padding-bottom: 30px;
+  }
+  .profile-style{
+    padding-top: 30px;;
+  }
   .ticket_wrapper{
     text-align: center;
     background-color: rgb(219, 219, 219);
@@ -270,7 +277,7 @@
     padding: 20px; 
   }
   .ticket-info-content{
-    background-color: #fff;
+    background-color: rgb(241, 241, 241);
     padding: 40px;
     width: 650px;
     margin: 0 auto;
@@ -313,6 +320,7 @@
     width: 340px;
   }
   /* end profile page */
+
   /* top-search */
 
   .top-search{
@@ -430,7 +438,6 @@
     margin-left: 2px;
     font-size: 14px;
   }
-
   /* end content */
 
   /* catalog */
@@ -516,3 +523,71 @@
 
   /* end catalog */
  
+  /* book page */
+  .book_wrapper{
+    background-color: #dbdbdb;
+    margin-top: 30px;
+    padding-bottom: 30px;
+  }
+  .book-title{
+    text-align: center;
+    font-size: 32px;
+    padding: 20px 0;
+    margin: 0;
+    color: var(--text-color);
+  }
+  .book-description-title{
+    font-size: 26px;
+    color: var(--text-color);
+  }
+  .book-content{
+    display: flex;
+    align-items: center;
+  }
+  .book-content_wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+  .book-page-img{
+    width: 415px;
+    height: 415px;
+  }
+  .book-info{
+    margin-left: 70px;
+    width: 100%;
+  }
+  .book-about-info{
+    position: relative;
+    font-size: 20px;
+    margin: 20px 0;
+    color: #6f6f70;
+  }
+  .book-about-info:after {
+    border-bottom: 1px solid var(--text-light);
+    bottom: 0;
+    content: "";
+    left: calc(100% + 4px);
+    position: absolute;
+    width: 500px;
+  }
+  .book-about-answ{
+    position: relative;
+    font-size: 20px;
+    margin: 20px 0;
+    color: var(--text-color);
+  }
+  .book-about-answ:after {
+    border-bottom: 1px solid var(--text-light);
+    bottom: 0;
+    content: "";
+    left: calc(100% - 500px);
+    position: absolute;
+    width: 500px;
+  }
+  .book-about-info span{
+    color: var(--text-color);
+  }
+  .btn-desc{
+    padding: 30px 0;
+  }
+  /* end book page  */

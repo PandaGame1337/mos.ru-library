@@ -10,7 +10,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="images/system-logo.png">
     <title>Кабинет читателя</title>
 </head>
 <body>
@@ -67,50 +66,38 @@
             </div>
         </div>
     </header>
-        <section class="ticket_wrapper">
-            <div class="container">
-                <h1 class="ticket-title">Кабинет читателя</h1>
-                <div class="ticket-img"></div>
-                <div class="ticket-info">
-                    <div class="ticket-info-content"> 
-                        <p class="ticket-info-title">Единый читательский билет</p>
-                        <p class="ticket-info-text">Чтобы посмотреть данные о заказах, добавьте читательский билет.</p>
-                        <a href="#" class="auth-btn-style">Добавить</a>
+    <section class="book_wrapper">
+        <div class="container">
+            <h1 class="book-title">Безмолвная ничья</h1>
+            <div class="book-content">
+                <img class="book-page-img" src="images/images-book/2.png" alt="">
+                <div class="book-info">
+                    <div class="book-content_wrapper">
+                        <p class="book-about-info">Автор:</p>
+                        <p class="book-about-answ">Анастасия Шерр</p>
+                    </div>
+                    <div class="book-content_wrapper">
+                        <p class="book-about-info">Жанр:</p>
+                        <p class="book-about-answ">Роман</p>
+                    </div>
+                    <div class="book-content_wrapper">
+                        <p class="book-about-info">Тип:</p>
+                        <p class="book-about-answ">Элетронная</p>
+                    </div>
+                    <div class="book-content_wrapper">
+                        <p class="book-about-info">Адрес библеотек:</p>
+                        <p class="book-about-answ">Ленина 23</p>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="top-search">
-            <div class="search-content container">
-                <form class="form-search" method="get">
-                    <input class="form-unput" type="text" placeholder="Название, автор" >
-                    <button class="button-unput-submit" type="submit">Найти</button>
-                </form>
-                <a class="search-link" href=""><img src="images/book-icon.svg" alt="">Каталог</a>
-                <a class="search-link" href=""><img src="images/user-icon-red.svg" alt="">Имя пользователя</a>
+            <p class="book-description-title">Описание</p>
+            <p class="book-description">Она появилась из ниоткуда, в один миг изменив всю его скучную и пресыщенную жизнь. Он никому не принадлежит. Она ничья. Так было до их встречи… Сможет ли убийца пройти мимо умирающей на снегу девушки?
+            </p>
+            <div class="btn-desc">
+                <a href="#" class="auth-btn-style">Добавить</a>
             </div>
-        </section>
-        <div class="main-content container">
-            <a href=""><h3 class="content-title">Ваша библиотека</h3></a>
-            <div class="main-grid">
-                <a href=""><div class="main-grid-card">
-                    <img class="main-grid-card__img" src="images/images-book/2.png" alt="">
-                    <div class="main-grid-card__content">
-                        <div class="main-grid-card__text">
-                            <div class="main-grid-card__title">Безмолвная ничья</div>
-                            <div class="main-grid-card__author">Анастасия Шерр</div>
-                        </div>
-                        <div class="main-grid-card__view">
-                            <img src="images/view-icon.svg" alt="">
-                            <div class="main-grid-card__view-text">126</div>
-                        </div>
-                    </div>
-                </div></a>
-            </div>
-        </div>
-        <section class="profile-rec">
             <div class="main-content container">
-                <a href=""><h3 class="content-title profile-style">Ваши рекомендации</h3></a>
+                <a href=""><h3 class="content-title">Читайте так же</h3></a>
                 <div class="main-grid">
                     <a href=""><div class="main-grid-card">
                         <img class="main-grid-card__img" src="images/images-book/2.png" alt="">
@@ -179,6 +166,7 @@
                     </div></a>
                 </div>
             </div>
-        </section>
+        </div>  
+    </section>
 </body>
 </html>
