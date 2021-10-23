@@ -442,7 +442,7 @@
   /* catalog */
   .catalog{
     margin-top: 50px;
-    gap: 20px;
+    gap: 40px;
     display: grid;
     grid-template-columns: 20% 80%;
     padding: 0 40px;
@@ -515,9 +515,9 @@
 
   .catalog-main-list{
     display: grid;
-    grid-template-columns: repeat(5,244px);
+    grid-template-columns: repeat(4,244px);
     grid-template-rows: 300px;
-    gap: 20px;
+    gap: 40px;
   }
 
   /* end catalog */
