@@ -267,13 +267,17 @@
   }
   .ticket-info{
     margin: 10px auto;
-    padding: 20px;  
+    padding: 20px; 
   }
   .ticket-info-content{
     background-color: #fff;
     padding: 40px;
     width: 650px;
     margin: 0 auto;
+    -webkit-box-shadow: 0px 0px 25px 4px rgba(34, 60, 80, 0.14);
+    -moz-box-shadow: 0px 0px 25px 4px rgba(34, 60, 80, 0.14);
+    box-shadow: 0px 0px 25px 4px rgba(34, 60, 80, 0.14);
+    margin-bottom: 30px;
   }
   .ticket-info-title{
     font-size: 18px;
@@ -305,7 +309,7 @@
     height: 240px;
     position: absolute;
     right: 250px;
-    top: 126px;
+    top: 146px;
     width: 340px;
   }
   /* end profile page */
