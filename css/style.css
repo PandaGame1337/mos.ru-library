@@ -103,24 +103,22 @@
   }
 
   .slider-item {
-    margin: 150px 100px;
+    margin: 160px 100px 0;
     padding: 30px;
-    width: 500px !important;
+    /* width: 500px !important; */
     height: 200px;
-    background-color: white;
-    box-shadow: 4px 4px 24px 11px rgba(255, 255, 255, 0.28);
+    
   }
 
   .slider-title {
-    font-size: 32px;
+    font-size: 58px;
     font-weight: 700;
-    color: var(--text-color);
+    color: white;
   }
 
-  .slider-tex {
-    font-size: 16px;
-    color: var(--text-color);
-    margin-top: 8px;
+  .slider-text {
+    font-size: 24px;
+    color: white;
   }
 
   /* end top slider */
@@ -229,6 +227,7 @@
     margin: 30px 0 10px 0;
     background: var(--collor-accent);
     border: none;
+    border-radius: 4px;
     padding: 10px 50px;
     font-weight: 500;
     font-size: 18px;
@@ -384,7 +383,7 @@
   .content-title{
     font-size: 28px;
     margin-bottom: 30px;
-    margin-top: 60px;
+    margin-top: 30px;
     color: var(--text-color);
   }
 
